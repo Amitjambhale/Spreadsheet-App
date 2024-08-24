@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.toolbar {
+    margin-bottom: 20px;
+}
+
+.spreadsheet {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 30px);
+    gap: 1px;
+    border: 1px solid #ddd;
+}
+
+.cell {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.cell:focus {
+    outline: none;
+    background-color: #e9e9e9;
+}
